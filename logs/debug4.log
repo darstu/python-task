@@ -1673,3 +1673,68 @@ INFO - Broken pipe from ('127.0.0.1', 54091)
 
 INFO C:\Users\siemk\Desktop\homework\task_project\urls.py changed, reloading.
 INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5327
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3618
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3724
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1771
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1234
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1315
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121462
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13660
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39685
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 846
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89478
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3421
+INFO "GET /words_from_digits/?digit=9894 HTTP/1.1" 200 8
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 28
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 28
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 28
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 28
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3421
+INFO "GET /words_from_digits HTTP/1.1" 301 0
+ERROR Internal Server Error: /words_from_digits/
+Traceback (most recent call last):
+  File "C:\Users\stukd\Desktop\homework\python-task\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\stukd\Desktop\homework\python-task\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\stukd\Desktop\homework\python-task\task_app\views.py", line 18, in words
+    words = getWords(state_name, all_words)
+  File "C:\Users\stukd\Desktop\homework\python-task\task_app\views.py", line 24, in getWords
+    wanted_letters = len(digit)
+TypeError: object of type 'NoneType' has no len()
+ERROR "GET /words_from_digits/ HTTP/1.1" 500 70896
+INFO "GET /words HTTP/1.1" 301 0
+INFO "GET /words/ HTTP/1.1" 200 16947
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121462
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1771
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39685
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3618
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1315
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13660
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 846
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1234
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89478
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3724
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+ERROR Internal Server Error: /words_from_digits/
+Traceback (most recent call last):
+  File "C:\Users\stukd\Desktop\homework\python-task\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\stukd\Desktop\homework\python-task\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\stukd\Desktop\homework\python-task\task_app\views.py", line 18, in words
+    words = getWords(state_name, all_words)
+  File "C:\Users\stukd\Desktop\homework\python-task\task_app\views.py", line 24, in getWords
+    wanted_letters = len(digit)
+TypeError: object of type 'NoneType' has no len()
+ERROR "GET /words_from_digits/ HTTP/1.1" 500 71627
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 28
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3421
+INFO "GET /words_from_digits/?digit=grgd HTTP/1.1" 200 2

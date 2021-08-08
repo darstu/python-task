@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\siemk\Desktop\homework\env"
+VIRTUAL_ENV="C:\Users\stukd\Desktop\homework\python-task\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
