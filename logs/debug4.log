@@ -1,0 +1,1675 @@
+INFO Watching for file changes with StatReloader
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO 2286
+INFO 4
+INFO "GET /words_from_digits/?digit=2286 HTTP/1.1" 200 29
+INFO 6
+INFO 1
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO 6
+INFO hello
+INFO "GET /words_from_digits/?digit=6 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 6
+INFO 1
+INFO {'name': 'cat'}
+INFO 6
+INFO hello
+INFO {'name': 'bat'}
+INFO 6
+INFO hello
+INFO {'name': 'zuzi'}
+INFO 6
+INFO hello
+INFO {'name': 'dog'}
+INFO 6
+INFO hello
+INFO {'name': 'act'}
+INFO 6
+INFO hello
+INFO {'name': 'batu'}
+INFO 6
+INFO hello
+INFO {'name': 'av'}
+INFO 6
+INFO hello
+INFO {'name': 'bu'}
+INFO 6
+INFO hello
+INFO {'name': 'cctv'}
+INFO 6
+INFO hello
+INFO {'name': 'abut'}
+INFO 6
+INFO hello
+INFO "GET /words_from_digits/?digit=6 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 6
+INFO 1
+ERROR Internal Server Error: /words_from_digits/
+Traceback (most recent call last):
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\siemk\Desktop\homework\task_app\views.py", line 17, in words
+    words = getWords(state_name, all_words)
+  File "C:\Users\siemk\Desktop\homework\task_app\views.py", line 25, in getWords
+    logger.info(word.name)
+AttributeError: 'dict' object has no attribute 'name'
+ERROR "GET /words_from_digits/?digit=6 HTTP/1.1" 500 71945
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 6
+INFO 1
+INFO {'name': 'cat'}
+INFO 6
+INFO hello
+INFO {'name': 'bat'}
+INFO 6
+INFO hello
+INFO {'name': 'zuzi'}
+INFO 6
+INFO hello
+INFO {'name': 'dog'}
+INFO 6
+INFO hello
+INFO {'name': 'act'}
+INFO 6
+INFO hello
+INFO {'name': 'batu'}
+INFO 6
+INFO hello
+INFO {'name': 'av'}
+INFO 6
+INFO hello
+INFO {'name': 'bu'}
+INFO 6
+INFO hello
+INFO {'name': 'cctv'}
+INFO 6
+INFO hello
+INFO {'name': 'abut'}
+INFO 6
+INFO hello
+INFO "GET /words_from_digits/?digit=6 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 6
+INFO 1
+ERROR Internal Server Error: /words_from_digits/
+Traceback (most recent call last):
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\siemk\Desktop\homework\task_app\views.py", line 17, in words
+    words = getWords(state_name, all_words)
+  File "C:\Users\siemk\Desktop\homework\task_app\views.py", line 25, in getWords
+    logger.info(word.name)
+AttributeError: 'dict' object has no attribute 'name'
+ERROR "GET /words_from_digits/?digit=6 HTTP/1.1" 500 71945
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 6
+INFO 1
+INFO {'name': 'cat'}
+INFO 6
+INFO hello
+INFO {'name': 'bat'}
+INFO 6
+INFO hello
+INFO {'name': 'zuzi'}
+INFO 6
+INFO hello
+INFO {'name': 'dog'}
+INFO 6
+INFO hello
+INFO {'name': 'act'}
+INFO 6
+INFO hello
+INFO {'name': 'batu'}
+INFO 6
+INFO hello
+INFO {'name': 'av'}
+INFO 6
+INFO hello
+INFO {'name': 'bu'}
+INFO 6
+INFO hello
+INFO {'name': 'cctv'}
+INFO 6
+INFO hello
+INFO {'name': 'abut'}
+INFO 6
+INFO hello
+INFO "GET /words_from_digits/?digit=6 HTTP/1.1" 200 29
+INFO 6
+INFO 1
+INFO {'name': 'cat'}
+INFO 6
+INFO hello
+INFO {'name': 'bat'}
+INFO 6
+INFO hello
+INFO {'name': 'zuzi'}
+INFO 6
+INFO hello
+INFO {'name': 'dog'}
+INFO 6
+INFO hello
+INFO {'name': 'act'}
+INFO 6
+INFO hello
+INFO {'name': 'batu'}
+INFO 6
+INFO hello
+INFO {'name': 'av'}
+INFO 6
+INFO hello
+INFO {'name': 'bu'}
+INFO 6
+INFO hello
+INFO {'name': 'cctv'}
+INFO 6
+INFO hello
+INFO {'name': 'abut'}
+INFO 6
+INFO hello
+INFO "GET /words_from_digits/?digit=6 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 6
+INFO 1
+INFO cat
+INFO 6
+INFO hello
+INFO bat
+INFO 6
+INFO hello
+INFO zuzi
+INFO 6
+INFO hello
+INFO dog
+INFO 6
+INFO hello
+INFO act
+INFO 6
+INFO hello
+INFO batu
+INFO 6
+INFO hello
+INFO av
+INFO 6
+INFO hello
+INFO bu
+INFO 6
+INFO hello
+INFO cctv
+INFO 6
+INFO hello
+INFO abut
+INFO 6
+INFO hello
+INFO "GET /words_from_digits/?digit=6 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 6
+INFO 1
+INFO "GET /words_from_digits/?digit=6 HTTP/1.1" 200 29
+INFO 2286
+INFO 4
+INFO 2286
+INFO hello
+INFO 2286
+INFO hello
+INFO 2286
+INFO hello
+INFO 2286
+INFO hello
+INFO "GET /words_from_digits/?digit=2286 HTTP/1.1" 200 29
+INFO 228
+INFO 3
+INFO 228
+INFO hello
+INFO 228
+INFO hello
+INFO 228
+INFO hello
+INFO 228
+INFO hello
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO cat
+INFO 228
+INFO hello
+INFO bat
+INFO 228
+INFO hello
+INFO zuzi
+INFO dog
+INFO 228
+INFO hello
+INFO act
+INFO 228
+INFO hello
+INFO batu
+INFO av
+INFO bu
+INFO cctv
+INFO abut
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO cat
+INFO 3
+INFO 228
+INFO hello
+INFO bat
+INFO 3
+INFO 228
+INFO hello
+INFO zuzi
+INFO 4
+INFO dog
+INFO 3
+INFO 228
+INFO hello
+INFO act
+INFO 3
+INFO 228
+INFO hello
+INFO batu
+INFO 4
+INFO av
+INFO 2
+INFO bu
+INFO 2
+INFO cctv
+INFO 4
+INFO abut
+INFO 4
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO 228
+INFO 3
+INFO cat
+INFO 3
+INFO 228
+INFO hello
+INFO bat
+INFO 3
+INFO 228
+INFO hello
+INFO zuzi
+INFO 4
+INFO dog
+INFO 3
+INFO 228
+INFO hello
+INFO act
+INFO 3
+INFO 228
+INFO hello
+INFO batu
+INFO 4
+INFO av
+INFO 2
+INFO bu
+INFO 2
+INFO cctv
+INFO 4
+INFO abut
+INFO 4
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+INFO 2286
+INFO 4
+INFO cat
+INFO 3
+INFO bat
+INFO 3
+INFO zuzi
+INFO 4
+INFO 2286
+INFO hello
+INFO dog
+INFO 3
+INFO act
+INFO 3
+INFO batu
+INFO 4
+INFO 2286
+INFO hello
+INFO av
+INFO 2
+INFO bu
+INFO 2
+INFO cctv
+INFO 4
+INFO 2286
+INFO hello
+INFO abut
+INFO 4
+INFO 2286
+INFO hello
+INFO "GET /words_from_digits/?digit=2286 HTTP/1.1" 200 29
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO cat
+INFO 3
+INFO 6
+INFO 228
+INFO hello
+INFO bat
+INFO 3
+INFO 6
+INFO 228
+INFO hello
+INFO zuzi
+INFO 4
+INFO 7
+INFO dog
+INFO 3
+INFO 6
+INFO 228
+INFO hello
+INFO act
+INFO 3
+INFO 6
+INFO 228
+INFO hello
+INFO batu
+INFO 4
+INFO 7
+INFO av
+INFO 2
+INFO 5
+INFO bu
+INFO 2
+INFO 5
+INFO cctv
+INFO 4
+INFO 7
+INFO abut
+INFO 4
+INFO 7
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 62515)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 228
+INFO 3
+INFO 2
+INFO 2
+INFO 2
+INFO 2
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 50114)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 2
+INFO 2
+INFO 2
+INFO 2
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 58337)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO b
+INFO d
+INFO a
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 61779)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO b
+INFO 2
+INFO 2
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 57413)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO b
+INFO 2
+INFO 2
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 55225)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO b
+INFO 2
+INFO 2
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 64125)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO 0
+INFO b
+INFO 2
+INFO 2
+INFO 0
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 0
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 62114)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO 0
+INFO b
+INFO 2
+INFO 2
+INFO 0
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 0
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 59036)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 61767)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 29
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3421
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 105
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 105
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 56482)
+
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 105
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 52768)
+
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 131
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 162
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 53349)
+
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO v
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO v
+INFO "GET /words_from_digits/?digit=28 HTTP/1.1" 200 202
+INFO z
+INFO u
+INFO z
+INFO i
+INFO b
+INFO 9
+INFO 2
+INFO 0
+INFO c
+INFO 9
+INFO 2
+INFO 0
+INFO a
+INFO 9
+INFO 2
+INFO 0
+INFO c
+INFO 9
+INFO 2
+INFO 0
+INFO c
+INFO 9
+INFO 2
+INFO 0
+INFO "GET /words_from_digits/?digit=9894 HTTP/1.1" 200 54
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2286 HTTP/1.1" 200 5
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 5
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 5
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 5
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO d
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO "GET /words_from_digits/?digit=228 HTTP/1.1" 200 69
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO z
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO u
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO b
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO u
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO t
+INFO c
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO a
+INFO 2
+INFO 2
+INFO 1
+INFO 1
+INFO t
+INFO v
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 59901)
+
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO - Broken pipe from ('127.0.0.1', 59903)
+
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 91
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /words_from_digits/
+Traceback (most recent call last):
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\siemk\Desktop\homework\task_app\views.py", line 20, in words
+    return HttpResponse(json.dumps(words), mimetype = "application/json")
+NameError: name 'HttpResponse' is not defined
+ERROR Internal Server Error: /words_from_digits/
+Traceback (most recent call last):
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\siemk\Desktop\homework\task_app\views.py", line 20, in words
+    return HttpResponse(json.dumps(words), mimetype = "application/json")
+NameError: name 'HttpResponse' is not defined
+INFO - Broken pipe from ('127.0.0.1', 55590)
+
+ERROR "GET /words_from_digits/?digit=2288 HTTP/1.1" 500 68091
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 55591)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /words_from_digits/
+Traceback (most recent call last):
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\siemk\Desktop\homework\task_app\views.py", line 21, in words
+    return HttpResponse(json.dumps(words), mimetype = "application/json")
+  File "C:\Users\siemk\Desktop\homework\env\lib\site-packages\django\http\response.py", line 329, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'mimetype'
+ERROR "GET /words_from_digits/?digit=2288 HTTP/1.1" 500 72730
+WARNING Not Found: /favicon.ico
+INFO - Broken pipe from ('127.0.0.1', 53604)
+
+INFO C:\Users\siemk\Desktop\homework\task_app\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 40
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 40
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 40
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 40
+INFO - Broken pipe from ('127.0.0.1', 60076)
+
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 40
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 40
+INFO C:\Users\siemk\Desktop\homework\task_project\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /words_from_digits/?digit=2288 HTTP/1.1" 200 40
+INFO "GET /words_from_digits/?digit=28 HTTP/1.1" 200 42
+INFO "GET /words_from_digits/?digit=9894 HTTP/1.1" 200 8
+INFO - Broken pipe from ('127.0.0.1', 54091)
+
+INFO C:\Users\siemk\Desktop\homework\task_project\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader

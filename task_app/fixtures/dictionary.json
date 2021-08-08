@@ -1,0 +1,128 @@
+[
+  {
+    "model": "task_app.word",
+    "pk": 1,
+    "fields": {
+      "name": "cat"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 2,
+    "fields": {
+      "name": "bat"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 3,
+    "fields": {
+      "name": "zuzi"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 4,
+    "fields": {
+      "name": "dog"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 5,
+    "fields": {
+      "name": "act"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 6,
+    "fields": {
+      "name": "batu"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 7,
+    "fields": {
+      "name": "av"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 8,
+    "fields": {
+      "name": "bu"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 9,
+    "fields": {
+      "name": "cctv"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 10,
+    "fields": {
+      "name": "abut"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 11,
+    "fields": {
+      "name": "ccu"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 12,
+    "fields": {
+      "name": "catt"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 13,
+    "fields": {
+      "name": "catv"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 14,
+    "fields": {
+      "name": "at"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 15,
+    "fields": {
+      "name": "au"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 16,
+    "fields": {
+      "name": "ct"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 17,
+    "fields": {
+      "name": "cu"
+    }
+  },
+  {
+    "model": "task_app.word",
+    "pk": 18,
+    "fields": {
+      "name": "cv"
+    }
+  }
+]
